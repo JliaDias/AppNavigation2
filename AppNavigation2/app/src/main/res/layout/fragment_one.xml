@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oneFragment"
+    android:background="#d8c4c8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="473dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:text="Tela Inicial"
+        android:textColor="#0e0900"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnP_imp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#c4d8d4"
+        android:textColor="@color/black"
+        android:text="Terceira Tela" />
+
+    <Button
+        android:id="@+id/btnP_par"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#c4d8d4"
+        android:textColor="@color/black"
+        android:text="Segunda Tela" />
+
+</FrameLayout>

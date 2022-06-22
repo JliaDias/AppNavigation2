@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fiveFragment"
+    android:background="#d8c4c8"
+    android:id="@+id/fragFive">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Quinta Tela"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#0e0900"
+        android:layout_marginTop="300dp"
+        />
+
+    <Button
+        android:id="@+id/btnP_imp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#c4d8d4"
+        android:text="Última Tela"
+        android:textColor="@color/black"
+        />
+
+</FrameLayout>
